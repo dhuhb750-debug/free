@@ -4,29 +4,31 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇮🇷 IR 01 - xiaohe
+- name: 🇹🇭 TH 01 - xiaohe
   type: vless
-  server: a652768e4c2240fc.tunvi.w-ert.org
-  port: 448
-  uuid: b2dacbda-8221-4548-a104-aa8aa56ab282
+  server: 104.16.10.185
+  port: 443
+  uuid: 3c52e091-6714-4915-949f-2149fe69951b
   udp: true
   tls: true
   skip-cert-verify: true
-  reality-opts:
-    public-key: woId47r1U8pEuDwHoC026bJHVWha2RHjufq1Kw3QoRU
-  servername: www.aparat.com
-  client-fingerprint: chrome
+  servername: v2ray.simspeedup.com
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: v2ray.simspeedup.com
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇮🇷 IR 01 - xiaohe
+  - 🇹🇭 TH 01 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇮🇷 IR 01 - xiaohe
+  - 🇹🇭 TH 01 - xiaohe
 rules:
 - MATCH,PROXIES
