@@ -4,20 +4,20 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇳🇱 荷兰 (Netherlands) 01 (家宽) - xiaohe
+- name: 🇮🇳 印度 (India) 01 (家宽) - xiaohe
   type: vless
-  server: 94.247.142.1
+  server: 122.176.216.52
   port: 443
-  uuid: fd62968a-2e97-41ea-9aa0-aa61aed78955
+  uuid: 16ae3ea5-cf3e-6973-7bf3-2b4b28d0ea88
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: simIlarcaTerpillarPvet-j5H6x4-1.simIlar-caterPillar-pVet.worKers.deV
+  servername: app-6ada5023.deploy.meerasolution.com
   network: ws
   ws-opts:
-    path: /
+    path: /ws/16ae3ea5-cf3e-6973-7bf3-2b4b28d0ea88
     headers:
-      Host: simIlarcaTerpillarPvet-j5H6x4-1.simIlar-caterPillar-pVet.worKers.deV
+      Host: app-6ada5023.deploy.meerasolution.com
 - name: 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - xiaohe
   type: vless
   server: 60.248.219.53
@@ -32,35 +32,19 @@ proxies:
     path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
     headers:
       Host: ty986gfazs.cainiaohub.xyz
-- name: 🇮🇳 印度 (India) 03 (家宽) - xiaohe
-  type: vless
-  server: 122.176.216.52
-  port: 443
-  uuid: 16ae3ea5-cf3e-6973-7bf3-2b4b28d0ea88
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: app-6ada5023.deploy.meerasolution.com
-  network: ws
-  ws-opts:
-    path: /ws/16ae3ea5-cf3e-6973-7bf3-2b4b28d0ea88
-    headers:
-      Host: app-6ada5023.deploy.meerasolution.com
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇳🇱 荷兰 (Netherlands) 01 (家宽) - xiaohe
+  - 🇮🇳 印度 (India) 01 (家宽) - xiaohe
   - 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - xiaohe
-  - 🇮🇳 印度 (India) 03 (家宽) - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇳🇱 荷兰 (Netherlands) 01 (家宽) - xiaohe
+  - 🇮🇳 印度 (India) 01 (家宽) - xiaohe
   - 🇹🇼 中国台湾 (Taiwan) 02 (家宽) - xiaohe
-  - 🇮🇳 印度 (India) 03 (家宽) - xiaohe
 rules:
 - MATCH,PROXIES
