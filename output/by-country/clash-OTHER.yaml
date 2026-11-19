@@ -6,21 +6,20 @@ log-level: info
 proxies:
 - name: 🌐 其他地区 (Other) 01 - xiaohe
   type: vless
-  server: 104.16.10.48
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  server: 104.26.0.1
+  port: 2052
+  uuid: 5744e593-1cc8-48fa-b8ca-57cd494fe35b
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: jp3.yohototo.top
   network: ws
   ws-opts:
-    path: /tyxyws
+    path: /rain1226
     headers:
-      Host: jp3.yohototo.top
+      Host: eu02.123450908.xyz
 - name: 🌐 其他地区 (Other) 02 - xiaohe
   type: vless
-  server: 104.16.10.185
+  server: 104.16.111.102
   port: 443
   uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
@@ -34,7 +33,7 @@ proxies:
       Host: jp3.yohototo.top
 - name: 🌐 其他地区 (Other) 03 - xiaohe
   type: vless
-  server: 104.19.164.155
+  server: 104.16.0.1
   port: 443
   uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
@@ -48,21 +47,21 @@ proxies:
       Host: jp3.yohototo.top
 - name: 🌐 其他地区 (Other) 04 - xiaohe
   type: vless
-  server: 104.24.225.89
+  server: 104.17.50.227
   port: 443
-  uuid: dbbed131-4ae8-4297-a102-438a2e19b0d9
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: GhzO7q51sn2b5e2I1670V7dmx.paGES.DEv
+  servername: jp3.yohototo.top
   network: ws
   ws-opts:
-    path: /vl/c5R0DRvdSoEZO90UjW3StIJxLpFWZod?ed=2560
+    path: /tyxyws
     headers:
-      Host: ghzo7q51sn2b5e2i1670v7dmx.pages.dev
+      Host: jp3.yohototo.top
 - name: 🌐 其他地区 (Other) 05 - xiaohe
   type: vless
-  server: 104.19.48.107
+  server: 104.21.70.228
   port: 443
   uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
@@ -76,21 +75,21 @@ proxies:
       Host: jp3.yohototo.top
 - name: 🌐 其他地区 (Other) 06 - xiaohe
   type: vless
-  server: 104.21.89.181
+  server: 104.16.0.1
   port: 443
-  uuid: a25a71d1-10ed-4383-855a-f269a34ca691
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: ave-qualifications-choices-populations.trycloudflare.com
+  servername: jp3.yohototo.top
   network: ws
   ws-opts:
-    path: /a8b8606819ef
+    path: /tyxyws
     headers:
-      Host: ave-qualifications-choices-populations.trycloudflare.com
+      Host: jp3.yohototo.top
 - name: 🌐 其他地区 (Other) 07 - xiaohe
   type: vless
-  server: 104.21.219.160
+  server: 104.18.42.98
   port: 443
   uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
@@ -104,49 +103,35 @@ proxies:
       Host: jp3.yohototo.top
 - name: 🌐 其他地区 (Other) 08 - xiaohe
   type: vless
-  server: 104.17.3.81
-  port: 443
-  uuid: 12d67d2b-ae5c-4d56-9f14-d71d96f7826f
+  server: 104.18.63.135
+  port: 2083
+  uuid: a6ad7987-f17e-41fa-a752-72db9a725eb2
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: natan.srpcom.cloud
+  servername: vipfree.dr-ping.ir
   network: ws
   ws-opts:
-    path: /vlessws
+    path: /
     headers:
-      Host: natan.srpcom.cloud
+      Host: vipfree.dr-ping.ir
 - name: 🌐 其他地区 (Other) 09 - xiaohe
   type: vless
-  server: 188.114.97.6
+  server: skk.moe
   port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  uuid: a25a71d1-10ed-4383-855a-f269a34ca691
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: jp3.yohototo.top
+  servername: ave-qualifications-choices-populations.trycloudflare.com
   network: ws
   ws-opts:
-    path: /tyxyws
+    path: /a8b8606819ef
     headers:
-      Host: jp3.yohototo.top
+      Host: ave-qualifications-choices-populations.trycloudflare.com
 - name: 🌐 其他地区 (Other) 10 - xiaohe
   type: vless
-  server: 104.27.204.44
-  port: 443
-  uuid: 386d67dc-bf88-49fd-a570-301cbb013a33
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 9t94rOaC1ew8n93SdrQ.pAgeS.DEV
-  network: ws
-  ws-opts:
-    path: /vl/x1qQUZWxHs5IRVeRUjz7AteYS?ed=2560
-    headers:
-      Host: 9t94roac1ew8n93sdrq.pages.dev
-- name: 🌐 其他地区 (Other) 11 - xiaohe
-  type: vless
-  server: 104.19.33.25
+  server: 104.21.33.59
   port: 443
   uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
@@ -158,37 +143,51 @@ proxies:
     path: /tyxyws
     headers:
       Host: jp3.yohototo.top
+- name: 🌐 其他地区 (Other) 11 - xiaohe
+  type: vless
+  server: 162.159.160.117
+  port: 2083
+  uuid: a6ad7987-f17e-41fa-a752-72db9a725eb2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: vipfree.dr-ping.ir
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: vipfree.dr-ping.ir
 - name: 🌐 其他地区 (Other) 12 - xiaohe
   type: vless
-  server: 172.67.187.219
+  server: 104.16.111.102
   port: 443
-  uuid: a25a71d1-10ed-4383-855a-f269a34ca691
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: ave-qualifications-choices-populations.trycloudflare.com
+  servername: jp3.yohototo.top
   network: ws
   ws-opts:
-    path: /a8b8606819ef
+    path: /tyxyws
     headers:
-      Host: ave-qualifications-choices-populations.trycloudflare.com
+      Host: jp3.yohototo.top
 - name: 🌐 其他地区 (Other) 13 - xiaohe
   type: vless
-  server: 172.67.190.141
+  server: 104.16.10.234
   port: 443
-  uuid: a25a71d1-10ed-4383-855a-f269a34ca691
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: ave-qualifications-choices-populations.trycloudflare.com
+  servername: jp3.yohototo.top
   network: ws
   ws-opts:
-    path: /a8b8606819ef
+    path: /tyxyws
     headers:
-      Host: ave-qualifications-choices-populations.trycloudflare.com
+      Host: jp3.yohototo.top
 - name: 🌐 其他地区 (Other) 14 - xiaohe
   type: vless
-  server: 104.21.219.160
+  server: 188.114.98.0
   port: 443
   uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
@@ -202,76 +201,6 @@ proxies:
       Host: jp3.yohototo.top
 - name: 🌐 其他地区 (Other) 15 - xiaohe
   type: vless
-  server: 104.18.41.190
-  port: 443
-  uuid: 16e80f38-e97e-4b14-ba89-77d87a3e637f
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ex3r.qzz.io
-  network: ws
-  ws-opts:
-    path: /sg-orcl
-    headers:
-      Host: ex3r.qzz.io
-- name: 🌐 其他地区 (Other) 16 - xiaohe
-  type: vless
-  server: 104.21.6.186
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 17 - xiaohe
-  type: vless
-  server: 172.67.217.240
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 18 - xiaohe
-  type: vless
-  server: 172.64.146.66
-  port: 443
-  uuid: 16e80f38-e97e-4b14-ba89-77d87a3e637f
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ex3r.qzz.io
-  network: ws
-  ws-opts:
-    path: /sg-orcl
-    headers:
-      Host: ex3r.qzz.io
-- name: 🌐 其他地区 (Other) 19 - xiaohe
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 20 - xiaohe
-  type: vless
   server: 104.21.0.87
   port: 443
   uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
@@ -284,93 +213,7 @@ proxies:
     path: /tyxyws
     headers:
       Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 21 - xiaohe
-  type: vless
-  server: 172.67.174.37
-  port: 443
-  uuid: a25a71d1-10ed-4383-855a-f269a34ca691
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ave-qualifications-choices-populations.trycloudflare.com
-  network: ws
-  ws-opts:
-    path: /a8b8606819ef
-    headers:
-      Host: ave-qualifications-choices-populations.trycloudflare.com
-- name: 🌐 其他地区 (Other) 22 - xiaohe
-  type: vless
-  server: 104.24.0.1
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 23 - xiaohe
-  type: vless
-  server: 172.67.217.240
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 24 - xiaohe
-  type: vmess
-  server: chatgpt.com
-  port: 8443
-  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: v2ray1.dozapp.xyz
-  network: ws
-  ws-opts:
-    path: /lMnsZUN4/
-    headers:
-      Host: v2ray1.dozapp.xyz
-- name: 🌐 其他地区 (Other) 25 - xiaohe
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 26 - xiaohe
-  type: vless
-  server: 104.24.31.89
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 27 - xiaohe
+- name: 🌐 其他地区 (Other) 16 - xiaohe
   type: vless
   server: 104.16.0.1
   port: 443
@@ -384,7 +227,62 @@ proxies:
     path: /tyxyws
     headers:
       Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 28 - xiaohe
+- name: 🌐 其他地区 (Other) 17 - xiaohe
+  type: vless
+  server: 162.159.254.3
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🌐 其他地区 (Other) 18 - xiaohe
+  type: vless
+  server: 104.18.0.181
+  port: 2052
+  uuid: 5744e593-1cc8-48fa-b8ca-57cd494fe35b
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /rain1226
+    headers:
+      Host: eu02.123450908.xyz
+- name: 🌐 其他地区 (Other) 19 - xiaohe
+  type: vless
+  server: 172.67.67.89
+  port: 2083
+  uuid: a6ad7987-f17e-41fa-a752-72db9a725eb2
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: vipfree.dr-ping.ir
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: vipfree.dr-ping.ir
+- name: 🌐 其他地区 (Other) 20 - xiaohe
+  type: vless
+  server: 104.21.6.186
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🌐 其他地区 (Other) 21 - xiaohe
   type: vless
   server: 188.114.98.0
   port: 443
@@ -398,6 +296,22 @@ proxies:
     path: /tyxyws
     headers:
       Host: jp3.yohototo.top
+- name: 🌐 其他地区 (Other) 22 - xiaohe
+  type: vmess
+  server: 104.21.91.53
+  port: 8443
+  uuid: 60441548-b68e-43b2-8191-e3b884be4b3c
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: v2ray1.dozapp.xyz
+  network: ws
+  ws-opts:
+    path: /lMnsZUN4/
+    headers:
+      Host: v2ray1.dozapp.xyz
 proxy-groups:
 - name: PROXIES
   type: select
@@ -425,12 +339,6 @@ proxy-groups:
   - 🌐 其他地区 (Other) 20 - xiaohe
   - 🌐 其他地区 (Other) 21 - xiaohe
   - 🌐 其他地区 (Other) 22 - xiaohe
-  - 🌐 其他地区 (Other) 23 - xiaohe
-  - 🌐 其他地区 (Other) 24 - xiaohe
-  - 🌐 其他地区 (Other) 25 - xiaohe
-  - 🌐 其他地区 (Other) 26 - xiaohe
-  - 🌐 其他地区 (Other) 27 - xiaohe
-  - 🌐 其他地区 (Other) 28 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -458,11 +366,5 @@ proxy-groups:
   - 🌐 其他地区 (Other) 20 - xiaohe
   - 🌐 其他地区 (Other) 21 - xiaohe
   - 🌐 其他地区 (Other) 22 - xiaohe
-  - 🌐 其他地区 (Other) 23 - xiaohe
-  - 🌐 其他地区 (Other) 24 - xiaohe
-  - 🌐 其他地区 (Other) 25 - xiaohe
-  - 🌐 其他地区 (Other) 26 - xiaohe
-  - 🌐 其他地区 (Other) 27 - xiaohe
-  - 🌐 其他地区 (Other) 28 - xiaohe
 rules:
 - MATCH,PROXIES
