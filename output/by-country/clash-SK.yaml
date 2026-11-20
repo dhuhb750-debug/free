@@ -6,7 +6,7 @@ log-level: info
 proxies:
 - name: 🇸🇰 SK 01 - xiaohe
   type: vless
-  server: 76574ct.nl8.h1clayd.click
+  server: 196.245.153.111
   port: 443
   uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
   udp: true
