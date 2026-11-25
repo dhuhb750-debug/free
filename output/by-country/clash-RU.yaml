@@ -6,22 +6,22 @@ log-level: info
 proxies:
 - name: 🇷🇺 俄罗斯 (Russia) 01 - xiaohe
   type: vless
-  server: 136.148.83.70
+  server: 136.148.83.71
   port: 443
   uuid: 00000000-0000-0001-0000-000000000000
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: aszbk-ru-78dc.my-fade.cloud
+  servername: wccfu-ru-79dc.my-fade.cloud
 - name: 🇷🇺 俄罗斯 (Russia) 02 - xiaohe
   type: vless
-  server: 136.148.83.70
+  server: 45.132.179.68
   port: 443
   uuid: 00000000-0000-0001-0000-000000000000
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: aszbk-ru-78dc.my-fade.cloud
+  servername: onbtoaadqkctlepomo.fcloudservices.site
 - name: 🇷🇺 俄罗斯 (Russia) 03 - xiaohe
   type: vless
   server: 136.148.83.69
@@ -32,35 +32,32 @@ proxies:
   skip-cert-verify: true
   servername: szqbx-ru-77dc.my-fade.cloud
 - name: 🇷🇺 俄罗斯 (Russia) 04 - xiaohe
-  type: ss
-  server: 130.49.189.158
-  port: 43558
-  cipher: chacha20-ietf-poly1305
-  password: LNc9h/4NA9Q6ZHNeYHoT5X/fR9aoE9KQR1SWhVDHBog=
+  type: vless
+  server: 136.148.83.70
+  port: 443
+  uuid: 00000000-0000-0001-0000-000000000000
   udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: aszbk-ru-78dc.my-fade.cloud
 - name: 🇷🇺 俄罗斯 (Russia) 05 - xiaohe
   type: vless
-  server: 147.45.221.225
+  server: 136.148.83.70
   port: 443
-  uuid: 58e22afd-bf74-4736-984d-63a8ca03d7f0
+  uuid: 00000000-0000-0001-0000-000000000000
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: nl.lucheeebezlimitnoekino.stream
-  network: ws
-  ws-opts:
-    path: /media/ws/
-    headers:
-      Host: 147.45.221.225
+  servername: aszbk-ru-78dc.my-fade.cloud
 - name: 🇷🇺 俄罗斯 (Russia) 06 - xiaohe
   type: vless
-  server: 136.148.83.69
+  server: 136.148.83.70
   port: 443
-  uuid: 7dff1be7-b930-0001-a8ad-dc7850168215
+  uuid: 00000000-0000-0001-0000-000000000000
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: szqbx-ru-77dc.my-fade.cloud
+  servername: aszbk-ru-78dc.my-fade.cloud
 proxy-groups:
 - name: PROXIES
   type: select
