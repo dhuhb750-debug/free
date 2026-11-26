@@ -20,7 +20,7 @@ proxies:
       Host: xray-ikmqcro3-rapid-river-6.cloady.io
 - name: 🇮🇳 印度 (India) 02 - xiaohe
   type: vless
-  server: in.smrtai.top
+  server: 178.212.35.198
   port: 443
   uuid: 6bdc8320-7eae-46fc-be08-f5f54e65dfc8
   udp: true
@@ -29,7 +29,7 @@ proxies:
   reality-opts:
     public-key: 3LbVuwKpQv55GngyRhvGl9KyAHIDAgvJx_VRM5mUD2Q
   servername: www.cloudflare.com
-  client-fingerprint: random
+  client-fingerprint: firefox
 - name: 🇮🇳 印度 (India) 03 - xiaohe
   type: vless
   server: xray-dmr3b3hy-calm-maple-7.cloady.io
@@ -58,7 +58,7 @@ proxies:
   client-fingerprint: chrome
 - name: 🇮🇳 印度 (India) 05 - xiaohe
   type: vless
-  server: 178.212.35.198
+  server: in.smrtai.top
   port: 443
   uuid: 6bdc8320-7eae-46fc-be08-f5f54e65dfc8
   udp: true
@@ -67,7 +67,21 @@ proxies:
   reality-opts:
     public-key: 3LbVuwKpQv55GngyRhvGl9KyAHIDAgvJx_VRM5mUD2Q
   servername: www.cloudflare.com
-  client-fingerprint: firefox
+  client-fingerprint: random
+- name: 🇮🇳 印度 (India) 06 - xiaohe
+  type: vless
+  server: 13.140.253.35
+  port: 443
+  uuid: 06a5afa1-2bbc-a5d1-1770-becd1089c636
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: xray-dmr3b3hy-calm-maple-7.cloady.io
+  network: ws
+  ws-opts:
+    path: /0175469f14317d82
+    headers:
+      Host: xray-dmr3b3hy-calm-maple-7.cloady.io
 proxy-groups:
 - name: PROXIES
   type: select
@@ -78,6 +92,7 @@ proxy-groups:
   - 🇮🇳 印度 (India) 03 - xiaohe
   - 🇮🇳 印度 (India) 04 - xiaohe
   - 🇮🇳 印度 (India) 05 - xiaohe
+  - 🇮🇳 印度 (India) 06 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -88,5 +103,6 @@ proxy-groups:
   - 🇮🇳 印度 (India) 03 - xiaohe
   - 🇮🇳 印度 (India) 04 - xiaohe
   - 🇮🇳 印度 (India) 05 - xiaohe
+  - 🇮🇳 印度 (India) 06 - xiaohe
 rules:
 - MATCH,PROXIES
